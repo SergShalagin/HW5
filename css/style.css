@@ -1,0 +1,162 @@
+body {
+   font-family: 'PT Sans', sans-serif;
+   font-size: 10px;
+   background: #c19ae6;
+
+}
+
+.header {
+   background: #243B93;
+   max-width: 150rem;
+   height: 6.5rem;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+
+}
+
+.menu__nav,
+.menu__nav ul {
+   display: flex;
+   align-items: flex-start;
+   margin: 10px auto;
+   color: #FFFFFF;
+   font-size: 1.6rem;
+   list-style: none;
+}
+
+.logo_ua {
+   display: flex;
+}
+
+.main__text {
+   background-color: #BFF0FF;
+   font-style: italic;
+   font-size: 2.4rem;
+   text-align: center;
+}
+
+.cards {
+   width: 70rem;
+   min-width: 10rem;
+   min-height: 70rem;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+
+}
+
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+
+   height: 16rem;
+   background-color: #ADCBD4;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.card__text {
+   width: 35rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   overflow: hidden;
+
+}
+
+.text__big {
+   border-bottom: solid 0.3rem #d9dbe4;
+   font-size: 1.6rem;
+   font-style: italic;
+   text-align: center;
+}
+
+.text__item {
+   background: #EDFBFF;
+
+   color: #202846;
+   font-size: 1.2rem;
+   text-align: start;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: stretch;
+   padding-left: 1.4rem;
+}
+
+.info__text {
+   max-width: 100%;
+   background: #FFE601;
+   text-align: left;
+   padding-left: 17rem;
+   font-size: 2rem;
+   font-style: italic;
+   font-weight: 400;
+}
+
+.user_info {
+   margin: 0 auto;
+   background: #859EFF;
+   width: 50rem;
+   height: 20rem;
+   border: solid 0.1rem red;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.user_avatar {
+   background-color: #243B93;
+   border-radius: 3rem;
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 1.2rem;
+}
+
+.user_propertis {
+   background-color: #EF075B;
+   border-radius: 3rem;
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 1.2rem;
+}
+
+a {
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.info ul {
+   list-style: none;
+   font-style: italic;
+   font-size: 1.2rem;
+   font-weight: 400;
+
+
+}
+
+li {
+   border-bottom: 0.1rem solid #FFFFFF;
+}
+
+span {
+   font-style: italic;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
